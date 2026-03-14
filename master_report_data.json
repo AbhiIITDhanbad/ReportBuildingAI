@@ -1,0 +1,1284 @@
+{
+    "negative_observations": [
+        {
+            "inspection_data": {
+                "id": "Photo_p3_4",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "",
+                "vlm_visual_description": "This photo captures the lower section of an interior wall near a tiled floor, showing clear signs of rising damp characterized by extensive peeling paint, discoloration, and mold growth just above the skirting board.",
+                "image_path": "extracted_images\\Photo_p3_4.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "Rejected: Low confidence score (65%). AI Reasoning: 1. Analyze Target Geometry: The 'Best educated guess' defines the target structure as a vertical interior wall meeting a horizontal skirting board at the bottom, adjacent to a vertical door frame or corner on the left. The Visual Features note rising damp with peeling paint, discoloration, and mold.\n2. Filter Candidates by Geometry: I scanned the candidate list for descriptions matching the wall-skirting-left frame geometry. Candidates like RB02386X, RB02377X, and RB02383X describe the wall and skirting but omit the left vertical element, making them geometrically incomplete compared to the target guess.\n3. Evaluate Remaining Candidates: Candidates such as RB02380X, RB02392X, RB02391X, RB02401X, and RB02402X all describe the correct geometry (vertical wall, baseboard, dark vertical element/door frame on the left) and mention 'peeling paint'.\n4. Differentiate Identical Descriptions: Several top candidates (RB02380X, RB02392X, etc.) have identical background feature text. In the absence of textual differentiation, I selected the candidate with the lowest ID number (RB02380X) which appears first in the list, aligning with the 'Impacted Area 1' designation which typically corresponds to the start of a sequence.\n5. Conclusion: RB02380X is the best match as it satisfies the strict geometric constraints (including the left frame) and defect description (peeling paint) while being the primary candidate in the sequence."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_5",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "",
+                "vlm_visual_description": "This interior room features tiled flooring and white walls that show clear signs of rising damp along the base, evidenced by extensive dark staining and peeling paint near the skirting boards.",
+                "image_path": "extracted_images\\Photo_p3_5.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02377X.JPG",
+                "hotspot": "26.9 \u00c2\u00b0C",
+                "coldspot": "21.9 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting at the bottom, characterized by significant peeling paint or plaster damage.",
+                "image_path": "extracted_images\\RB02377X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. **Analyze Target Geometry:** The target inspection photo describes a vertical interior wall meeting a horizontal skirting board at the bottom, with a vertical door frame or corner on the left. It explicitly notes 'tiled flooring' and 'extensive dark staining and peeling paint' due to rising damp.\n2. **Analyze Candidate Geometry:** All remaining thermal candidates describe a similar structural geometry: a vertical interior wall surface meeting a horizontal baseboard/skirting at the bottom, often with a dark vertical element (door frame/corner) on the left.\n3. **Evaluate Defect Descriptors:** The target emphasizes 'extensive' damage (staining and peeling). Most candidates (e.g., RB02380X, RB02402X) use generic phrasing like 'featuring peeling paint'. However, candidate RB02377X specifically describes the area as 'characterized by significant peeling paint or plaster damage'. The term 'significant' semantically aligns closer to the target's 'extensive' than the generic 'featuring'.\n4. **Address Material Discrepancy:** While the target specifies 'tiled flooring', none of the thermal candidate descriptions explicitly mention tiles. In forensic thermal matching, descriptions often focus on the thermal surface (wall) rather than floor texture, or the VLM may omit floor details in close-up wall scans. The structural geometry (wall/skirting/corner) is a perfect match across the board, so the missing 'tile' keyword does not disqualify the match if the damage severity aligns.\n5. **Select Best Match:** RB02377X is selected because its description of 'significant... damage' distinguishes it from the generic descriptions of other candidates and logically corresponds to the 'extensive' rising damp noted in the target photo."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_6",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "",
+                "vlm_visual_description": "This interior room displays significant dampness and mold growth along the lower section of the wall, particularly affecting the area just above the skirting board and floor tiles.",
+                "image_path": "extracted_images\\Photo_p3_6.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02393X.JPG",
+                "hotspot": "25.9 \u00c2\u00b0C",
+                "coldspot": "20.9 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "Based on the visual evidence of peeling paint, horizontal trim, and vertical planes, this appears to be a section of an interior drywall or plaster wall situated directly above a baseboard or skirting board, with a dark vertical door frame or corner visible on the far left edge.\n\n**Best educated guess of the structural geometry:** This is a vertical interior wall surface meeting a horizontal floor skirting board at the bottom, adjacent to a vertical door frame or wall corner on the left.",
+                "image_path": "extracted_images\\RB02393X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo description: It specifies an interior room with dampness and mold growth on the 'lower section of the wall', particularly 'above the skirting board'. \n2. Analyze the Thermal Candidates: Most candidates describe a vertical wall meeting a horizontal baseboard/skirting at the bottom, often with a vertical door frame or corner on the left. \n3. Filter for Geometric Precision: While many candidates mention the wall meeting the skirting 'at the bottom', candidate RB02393X specifically describes the wall section as 'situated directly above a baseboard or skirting board'. This phrasing ('above') aligns more precisely with the Target's description of the defect location ('above the skirting board') than the generic 'meeting at the bottom' found in others. \n4. Filter for Defect Correlation: The Target notes 'dampness and mold'. RB02393X notes 'peeling paint', which is the standard visual indicator of such dampness in building inspections. \n5. Verify Structural Hints: The text includes a 'Best educated guess' of the geometry involving a 'vertical door frame or wall corner on the left'. RB02393X explicitly confirms a 'dark vertical door frame or corner visible on the far left edge'. \n6. Conclusion: RB02393X.JPG offers the strongest textual alignment regarding the specific location relative to the skirting ('above') and the presence of damage indicators ('peeling paint'), making it the most logical match."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_7",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "",
+                "vlm_visual_description": "This interior room shows significant rising damp affecting the lower section of the wall, where the plaster is crumbling and paint is peeling extensively along the skirting line.",
+                "image_path": "extracted_images\\Photo_p3_7.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02386X.JPG",
+                "hotspot": "27.4 \u00c2\u00b0C",
+                "coldspot": "22.4 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "The image displays a vertical interior wall surface, likely plaster or drywall, meeting a horizontal skirting board or floor junction at the bottom, characterized by irregular patches of peeling paint and surface deterioration.",
+                "image_path": "extracted_images\\RB02386X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. The target inspection photo describes a lower interior wall section affected by rising damp, specifically noting 'crumbling plaster' and 'paint peeling extensively along the skirting line'.\n2. I compared this against the thermal candidates. All candidates describe a vertical wall meeting a horizontal skirting/baseboard, which matches the geometry.\n3. I filtered for defect descriptions. The target emphasizes substrate damage ('crumbling'). Most candidates (e.g., RB02380X, RB02402X) mention 'peeling paint' but also explicitly describe a 'dark vertical element like a door frame or corner on the left'. The target description does not mention this vertical element.\n4. Candidate RB02386X describes 'irregular patches of peeling paint and surface deterioration'. The phrase 'surface deterioration' is a strong semantic match for 'crumbling plaster' caused by damp, distinguishing it from candidates that only mention paint peeling.\n5. Furthermore, RB02386X does not mention a door frame or corner on the left, aligning with the target description which focuses purely on the damp-affected wall surface. Other candidates lacking the door frame mention (e.g., RB02385X, RB02387X) do not describe the defect, making them poor matches for a defect report.\n6. Thus, RB02386X is the most logically consistent match based on both defect severity and geometric description."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_8",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "",
+                "vlm_visual_description": "This photo captures an interior room corner showing significant rising damp and mold staining along the lower walls and skirting. Visible defects include dark discoloration and peeling paint near the floor level, indicating moisture intrusion.",
+                "image_path": "extracted_images\\Photo_p3_8.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02380X.JPG",
+                "hotspot": "28.8 \u00c2\u00b0C",
+                "coldspot": "23.4 \u00c2\u00b0C",
+                "temp_differential": 5.400000000000002,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+                "image_path": "extracted_images\\RB02380X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo: The photo depicts an interior room corner with a skirting board/baseboard at the bottom. Key defects noted are rising damp, mold staining, and specifically 'peeling paint near the floor level'.\n2. Analyze Thermal Candidates: All candidates describe a vertical interior wall meeting a horizontal baseboard/skirting with a vertical corner or door frame on the left. This matches the general geometry of the target.\n3. Filter by Defect Features: The target explicitly highlights 'peeling paint' as a visible defect. I scanned the candidate descriptions for this specific keyword. Candidates RB02380X, RB02402X, RB02392X, RB02401X, and RB02391X explicitly mention 'featuring peeling paint'. Others mention 'peeling texture' or 'peeling paint/plaster' or omit the defect entirely.\n4. Select Best Match: RB02380X.JPG is the first candidate in the list that exactly matches the structural geometry (wall, baseboard, corner) and the specific defect state ('peeling paint') described in the target report. While other candidates share identical text, RB02380X is the primary logical match based on sequence and exact keyword alignment ('peeling paint' vs 'texture' or 'plaster')."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_9",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "",
+                "vlm_visual_description": "This image displays the corner of a room with tiled flooring, where the lower section of the white walls and skirting area exhibits significant damp staining and discoloration.",
+                "image_path": "extracted_images\\Photo_p3_9.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02396X.JPG",
+                "hotspot": "26.1 \u00c2\u00b0C",
+                "coldspot": "21.1 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting at the bottom, featuring a dark vertical edge on the left that likely indicates a door frame or room corner.",
+                "image_path": "extracted_images\\RB02396X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze Target Geometry: The target inspection photo describes a 'Corner of a room' with 'tiled flooring', 'white walls', and a 'skirting area' showing damp staining. The key structural elements are the vertical wall, horizontal skirting board, and the room corner junction.\n2. Filter Candidates by Structure: Review the thermal candidates for matching structural descriptions. Candidates must depict a vertical wall meeting a horizontal skirting/baseboard and ideally indicate a corner geometry to match the 'Corner of a room' target. Candidates like RB02383X, RB02385X, RB02387X, and RB02388X describe flat wall sections without explicit corner/door frame references on the left, making them less suitable for a 'corner' specific photo.\n3. Refine by Terminology: Among the candidates that mention a left vertical element (corner/door frame), compare specific wording. The target specifies 'Corner of a room'. Candidate RB02396X explicitly states the vertical edge 'likely indicates a door frame or room corner', directly aligning with the target's 'Corner of a room' description. Other candidates often prioritize 'door frame' or use more generic terms.\n4. Conclusion: RB02396X.JPG provides the most accurate structural and linguistic match for the corner geometry and skirting board junction described in the target photo."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_10",
+                "area": "Impacted Area 1",
+                "side": "Negative",
+                "pdf_description": "Photo 1 Photo 2 Photo 3 Photo 4 Photo 5 Photo 6",
+                "vlm_visual_description": "This interior shot shows the lower section of a white wall where significant horizontal staining and discoloration suggest rising dampness or water damage near the skirting board and tiled floor.",
+                "image_path": "extracted_images\\Photo_p3_10.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "Error during LLM inference."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_15",
+                "area": "Impacted Area 2",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "The image captures the base of an interior wall above a tiled floor, showing severe peeling paint and discoloration consistent with rising dampness.",
+                "image_path": "extracted_images\\Photo_p3_15.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02378X.JPG",
+                "hotspot": "26.4 \u00c2\u00b0C",
+                "coldspot": "21.4 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "Based on the visual evidence of a flat vertical surface with peeling paint/plaster meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this is a vertical interior wall surface, likely plaster or drywall, meeting a horizontal skirting board or baseboard at the floor level.",
+                "image_path": "extracted_images\\RB02378X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo is described as the 'base of an interior wall above a tiled floor' with 'severe peeling paint' and 'discoloration consistent with rising dampness'. Key geometric cues are the wall-floor junction (tiled) and the texture (peeling paint).\n2. Filter Thermal Candidates: Scan the remaining thermal candidates for mentions of 'peeling paint', 'peeling texture', or 'dampness'. Candidates without these defect descriptors (e.g., RB02395X, RB02403X, RB02397X) are eliminated as they do not match the primary defect.\n3. Evaluate Remaining Candidates: The candidates RB02392X, RB02402X, RB02401X, RB02391X describe 'peeling paint' but use the generic term 'baseboard' and 'bottom'. The candidates RB02378X and RB02406X describe 'peeling paint/plaster' and use terms like 'trim piece', 'skirting board', and 'floor level'.\n4. Match Geometric Cues: The target specifies a 'tiled floor'. 'Skirting board' (mentioned in RB02378X and RB02406X) is structurally more consistent with tiled floors than 'baseboard' (typically wood/carpet junction). Furthermore, RB02378X explicitly mentions 'at the floor level', which aligns precisely with the target's 'above a tiled floor' description, whereas others just say 'at the bottom'.\n5. Select Best Match: RB02378X.JPG provides the most detailed and structurally accurate description ('flat vertical surface', 'trim piece', 'skirting board or baseboard', 'floor level') that corresponds to the specific conditions (tiled floor, peeling paint) of the target photo. It distinguishes itself from the generic cluster of 'baseboard' descriptions."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_16",
+                "area": "Impacted Area 2",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This interior shot shows the lower portion of a white wall where significant dampness and peeling paint are evident just above the skirting board.",
+                "image_path": "extracted_images\\Photo_p3_16.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "Error during LLM inference."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p3_17",
+                "area": "Impacted Area 2",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This image shows the lower section of a wall in an empty room, revealing clear signs of rising damp and peeling paint along the base just above the skirting board.",
+                "image_path": "extracted_images\\Photo_p3_17.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "Error during LLM inference."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_24",
+                "area": "Impacted Area 3",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This photo depicts an interior wall corner showing vertical surface defects and small holes in the plaster, along with peeling paint and signs of moisture damage or rising damp near the base.",
+                "image_path": "extracted_images\\Photo_p4_24.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02406X.JPG",
+                "hotspot": "26.5 \u00c2\u00b0C",
+                "coldspot": "21.5 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "Based on the visual evidence of a large vertical surface with peeling paint/plaster meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this appears to be an interior wall section meeting a skirting board or baseboard near a corner or door frame.",
+                "image_path": "extracted_images\\RB02406X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze Target Features: The target inspection photo describes an 'interior wall corner' with 'vertical surface defects', 'small holes in the plaster', 'peeling paint', and 'moisture damage near the base'. Key structural elements are the wall corner, baseboard/skirting, and specific plaster damage.\n2. Evaluate Candidate Geometry: All candidates describe a vertical interior wall meeting a horizontal baseboard/skirting with a vertical corner or door frame on the left. Geometrically, they are all similar.\n3. Evaluate Candidate Defects: I filtered for candidates mentioning surface defects. Most candidates (e.g., RB02395X, RB02403X) describe clean surfaces. Several candidates (RB02402X, RB02392X, RB02401X, RB02391X) mention 'peeling paint' but use identical template phrasing.\n4. Identify Specific Material Match: The target explicitly notes 'holes in the plaster'. Candidate RB02406X.JPG is the only thermal candidate that specifically mentions 'peeling paint/plaster', linking the defect to the plaster material rather than just the paint layer. This semantic match aligns best with the target's description of plaster defects.\n5. Conclusion: RB02406X.JPG is the strongest logical match due to the specific reference to plaster damage alongside peeling paint, mirroring the target's defect report."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_25",
+                "area": "Impacted Area 3",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This interior wall features an electrical socket and exhibits clear signs of rising damp near the skirting board, characterized by peeling paint, bubbling plaster, and a visible hole in the lower section.",
+                "image_path": "extracted_images\\Photo_p4_25.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02390X.JPG",
+                "hotspot": "26.9 \u00c2\u00b0C",
+                "coldspot": "21.9 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "Based on the visual evidence of a vertical painted surface with peeling texture meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this is a vertical interior wall surface meeting a horizontal baseboard or skirting board at the floor level.",
+                "image_path": "extracted_images\\RB02390X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. **Analyze Target Features:** The target inspection photo is defined by specific structural and defect features: an interior wall, a 'skirting board', 'rising damp', 'peeling paint', 'bubbling plaster', a 'visible hole', and an 'electrical socket'.\n2. **Filter Candidates by Defect:** The defect 'Dampness' resulting in 'peeling' is a key identifier. Scanning the candidate list, only five candidates mention peeling: RB02390X (peeling texture), RB02391X (peeling paint), RB02392X (peeling paint), RB02401X (peeling paint), and RB02402X (peeling paint). The remaining candidates describe intact walls, which do not match the defect report.\n3. **Differentiate Among Damage Candidates:** The candidates RB02391X, RB02392X, RB02401X, and RB02402X share identical background feature descriptions ('vertical interior wall surface meeting a horizontal baseboard... featuring peeling paint'). This makes them logically indistinguishable from one another based strictly on text.\n4. **Match Structural Terminology:** The target photo explicitly uses the term 'skirting board'. While 'baseboard' is synonymous, RB02390X is the only candidate in the damage group that explicitly includes the term 'skirting board' in its description ('meeting a horizontal baseboard or skirting board').\n5. **Assess Specificity:** RB02390X also provides a more unique and detailed description ('peeling texture', 'trim piece') compared to the boilerplate text of the other damage candidates. In forensic matching, unique textual descriptors are more likely to correspond to a specific impacted area than generic ones.\n6. **Conclusion:** Although the 'socket' and 'hole' features are missing from all candidate texts (likely due to thermal scan resolution or VLM summary limitations), RB02390X.JPG is the strongest logical match due to the combination of damage evidence (peeling) and specific structural terminology (skirting) that aligns with the target."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_26",
+                "area": "Impacted Area 3",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This photo depicts an interior room corner where the lower section of the painted wall shows significant signs of rising damp, characterized by peeling paint and discoloration near the floor.",
+                "image_path": "extracted_images\\Photo_p4_26.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02402X.JPG",
+                "hotspot": "25.7 \u00c2\u00b0C",
+                "coldspot": "20.7 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+                "image_path": "extracted_images\\RB02402X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo depicts an 'interior room corner' at the 'lower section of the painted wall'. Key defect features are 'rising damp', 'peeling paint', and 'discoloration near the floor'. Geometric cues include a vertical wall, a floor junction (baseboard), and a corner element.\n2. Evaluate Candidates: I scanned the 'Background Features' of all thermal candidates for geometric alignment (vertical wall, horizontal baseboard, vertical corner/door frame) and surface condition alignment.\n3. Filter Structural Matches: Many candidates (e.g., RB02395X, RB02403X, RB02397X) describe the correct geometry (wall, baseboard, corner) but lack specific mention of the surface defect.\n4. Identify Defect Matches: Four candidates (RB02402X, RB02392X, RB02401X, RB02391X) explicitly state 'featuring peeling paint'. This textual feature directly correlates with the Target's 'Visual Features' (peeling paint) and 'Defect Noted' (Dampness).\n5. Select Best Match: The description for RB02402X.JPG ('vertical interior wall surface meeting a horizontal baseboard... featuring peeling paint and a dark vertical element like a door frame or corner on the left side') is a precise textual match for the target's geometry and defect. While other candidates share identical text, RB02402X is the first occurrence in the provided list, indicating it as the primary logical match for this specific defect profile."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_27",
+                "area": "Impacted Area 3",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This interior view focuses on the lower wall and skirting area, which exhibits significant peeling paint and discoloration indicative of rising dampness.",
+                "image_path": "extracted_images\\Photo_p4_27.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02392X.JPG",
+                "hotspot": "25.8 \u00c2\u00b0C",
+                "coldspot": "20.8 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+                "image_path": "extracted_images\\RB02392X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze Target Photo: The inspection photo specifies 'Impacted Area 3' with a defect of 'Dampness'. The visual features highlight the 'lower wall and skirting area' with 'significant peeling paint and discoloration'. 2. Filter Candidates: I scanned the 'Background Features' of all remaining thermal candidates for keywords matching the defect. Most candidates describe a standard wall/baseboard junction without surface defects. 3. Identify Matches: Only three candidates (RB02392X.JPG, RB02401X.JPG, RB02391X.JPG) explicitly mention 'featuring peeling paint', which directly correlates with the 'significant peeling paint' noted in the target report. 4. Geometric Verification: These three candidates also match the geometric layout ('vertical interior wall', 'horizontal baseboard', 'dark vertical element/door frame on left'). 5. Selection: As the text descriptions for these three are identical, RB02392X.JPG is selected as the match because it is the first candidate in the provided list that satisfies the critical defect condition ('peeling paint'), making it the most logical textual match for the dampness report."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_28",
+                "area": "Impacted Area 3",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This interior wall section exhibits signs of moisture ingress, evidenced by extensive damp staining and peeling paint near the skirting board and electrical outlet.",
+                "image_path": "extracted_images\\Photo_p4_28.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02401X.JPG",
+                "hotspot": "25.6 \u00c2\u00b0C",
+                "coldspot": "20.6 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+                "image_path": "extracted_images\\RB02401X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo: The visual features describe an interior wall with moisture ingress, damp staining, and specifically 'peeling paint near the skirting board'. It also notes an electrical outlet. 2. Scan Thermal Candidates for Geometric Matches: All candidates describe a vertical interior wall meeting a horizontal baseboard/skirting, often with a vertical door frame or corner on the left. This matches the general structure of the target. 3. Filter for Defect Features: The target explicitly identifies 'peeling paint'. I searched the candidate descriptions for this specific defect keyword. 4. Identify Specific Matches: Most candidates (e.g., RB02395X, RB02403X) only describe structural elements. Only two candidates, RB02401X.JPG and RB02391X.JPG, explicitly mention 'featuring peeling paint'. 5. Select Best Candidate: Both RB02401X and RB02391X share identical text descriptions regarding the defect. However, assuming a sequential inspection order where 'Impacted Area 3' corresponds to a later scan ID in the sequence, RB02401X (higher number than RB02391X) is the logical choice. The explicit mention of 'peeling paint' provides a strong semantic link to the target's defect report that is absent in all other candidates."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_29",
+                "area": "Impacted Area 3",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This empty room displays significant signs of rising damp along the base of the walls, characterized by extensive peeling paint, discoloration, and plaster deterioration near the floor level. The moisture damage is particularly visible in the corners and along the skirting area.",
+                "image_path": "extracted_images\\Photo_p4_29.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02391X.JPG",
+                "hotspot": "25.6 \u00c2\u00b0C",
+                "coldspot": "20.6 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+                "image_path": "extracted_images\\RB02391X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo: The description highlights an empty room with rising damp along the base of the walls. Key visual identifiers are 'peeling paint', 'discoloration', 'plaster deterioration', and damage along the 'skirting area' and 'corners'.\n2. Scan Candidate Background Features: I reviewed all 19 remaining thermal candidates. Almost all candidates describe a generic structural layout: a vertical interior wall meeting a horizontal baseboard/skirting, often with a vertical door frame or corner on the left.\n3. Identify Unique Differentiators: While the structural geometry (wall + skirting + corner) is common across most candidates (e.g., RB02395X, RB02404X, RB02397X), only one candidate explicitly mentions the specific defect condition described in the target.\n4. Match Defect Descriptors: Candidate RB02391X.JPG describes the scene as 'featuring peeling paint'. This directly correlates with the Target's visual feature of 'extensive peeling paint'. None of the other candidates mention paint condition or deterioration.\n5. Confirm Structural Alignment: RB02391X.JPG also matches the structural layout (vertical wall, baseboard at bottom, dark vertical element/corner on left), consistent with the target's description of damage near the floor level and corners.\n6. Conclusion: RB02391X.JPG is the logical match due to the unique inclusion of the 'peeling paint' defect descriptor which aligns with the inspection report."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_35",
+                "area": "Impacted Area 4",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This interior room features white walls and a glossy tiled floor, exhibiting visible signs of dampness characterized by dark staining and discoloration along the base of the partition wall and adjacent wall sections.",
+                "image_path": "extracted_images\\Photo_p4_35.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02404X.JPG",
+                "hotspot": "25.8 \u00c2\u00b0C",
+                "coldspot": "20.8 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "Based on the visual evidence of the underlying structure, this appears to be the lower section of a vertical interior wall (likely plaster or drywall) meeting a horizontal baseboard at the bottom and adjacent to a vertical corner or door frame on the left.",
+                "image_path": "extracted_images\\RB02404X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo: The description specifies an interior room with dampness at the 'base of the partition wall and adjacent wall sections'. This geometrically implies a wall-to-floor junction (base) and a wall-to-wall junction (corner/adjacent sections).\n2. Analyze Thermal Candidates: Most candidates describe a vertical interior wall meeting a horizontal baseboard. However, the target specifically notes 'adjacent wall sections', which strongly suggests a corner feature is present in the view.\n3. Filter Candidates: Candidates that describe only a flat wall/baseboard without a corner or vertical structure (e.g., RB02403X, RB02385X) are less likely to match the 'adjacent wall sections' description. Candidates mentioning a 'corner' or 'door frame' on the left are preferred.\n4. Linguistic Match: Candidate RB02404X describes the wall as 'adjacent to a vertical corner or door frame'. The use of the word 'adjacent' directly mirrors the target's 'adjacent wall sections', and 'vertical corner' aligns with the geometry of partition walls meeting adjacent sections.\n5. ID Heuristic: The target location is 'Impacted Area 4'. The candidate ID 'RB02404X.JPG' contains the number '04', which logically corresponds to 'Area 4' in a sequential inspection filing system. This numeric correlation reinforces the structural and linguistic match."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p4_36",
+                "area": "Impacted Area 4",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This image displays the base of an interior white wall where significant damp staining and discoloration are evident along the bottom edge, suggesting rising damp or water damage.",
+                "image_path": "extracted_images\\Photo_p4_36.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02388X.JPG",
+                "hotspot": "25.1 \u00c2\u00b0C",
+                "coldspot": "20.1 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "The image depicts the lower section of a flat, vertical interior wall, likely drywall or plaster, meeting a baseboard or floor junction at the bottom edge.",
+                "image_path": "extracted_images\\RB02388X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo: The description focuses on the 'base of an interior white wall' with dampness 'along the bottom edge'. Key structural elements are the vertical wall surface and the horizontal junction at the floor (baseboard/skirting). No door frame or corner is explicitly mentioned in the target text.\n2. Filter Thermal Candidates: Review the 'Background Features' of the remaining candidates. Most candidates (e.g., RB02395X, RB02405X, RB02394X) explicitly describe a 'dark vertical door frame or corner on the left'. Since the target description does not mention this feature, these candidates are less likely to be the exact match, assuming the field of view and description granularity should align.\n3. Narrow Down Candidates: Identify candidates that describe a vertical wall meeting a baseboard without mentioning a door frame. These include RB02403X, RB02383X, RB02385X, RB02387X, and RB02388X.\n4. Lexical and Structural Matching: Compare the specific phrasing. The target specifies 'along the bottom edge'.\n   - RB02403X uses 'at the floor level'.\n   - RB02383X uses 'near the floor'.\n   - RB02385X and RB02387X use 'at the bottom'.\n   - RB02388X uses 'at the bottom edge'.\n5. Conclusion: RB02388X.JPG provides the closest lexical match ('bottom edge') and structural description ('lower section of a flat, vertical interior wall... meeting a baseboard... at the bottom edge') to the target photo ('base of an interior white wall... along the bottom edge')."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p5_43",
+                "area": "Impacted Area 5",
+                "side": "Negative",
+                "pdf_description": "Photo 33 Photo 34 Photo 35 Photo 36 Photo 37",
+                "vlm_visual_description": "This photo shows an interior wall corner with vertical surface pitting and significant peeling paint near the base, indicating potential dampness or plaster deterioration.",
+                "image_path": "extracted_images\\Photo_p5_43.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02400X.JPG",
+                "hotspot": "25.2 \u00c2\u00b0C",
+                "coldspot": "20.2 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "This is a vertical interior wall surface meeting a horizontal skirting board at the bottom, with a dark vertical corner or door frame visible on the left edge.",
+                "image_path": "extracted_images\\RB02400X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze the Target Inspection Photo: The visual features describe an 'Interior wall corner' with defects near the 'base'. The key geometric elements are a vertical wall surface, a horizontal baseboard/skirting, and a vertical corner junction.\n2. Analyze the Thermal Candidates: Most candidates describe a vertical wall meeting a horizontal baseboard. Many also mention a vertical element on the left (door frame or corner).\n3. Filter Candidates: Eliminate candidates that do not mention a vertical element on the left (e.g., RB02403X, RB02383X, RB02385X, RB02387X) as the target explicitly specifies a 'corner'.\n4. Compare Specific Wording: The target identifies the feature primarily as a 'corner'. Among the remaining candidates, most list 'door frame or corner'. However, RB02400X.JPG lists 'dark vertical corner or door frame', prioritizing the word 'corner' which aligns linguistically and structurally closer to the target's 'Interior wall corner' description. Other candidates like RB02395X prioritize 'door frame'.\n5. Conclusion: RB02400X.JPG is the best logical structural match based on the prioritization of the 'corner' feature in the text description and the presence of the required wall/baseboard/corner geometry."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p5_44",
+                "area": "Impacted Area 5",
+                "side": "Negative",
+                "pdf_description": "Photo 33 Photo 34 Photo 35 Photo 36 Photo 37",
+                "vlm_visual_description": "This interior room exhibits clear signs of rising damp and water damage along the base of the walls. Visible defects include extensive discoloration, peeling paint, and plaster deterioration near the skirting level on the left wall and beneath the window.",
+                "image_path": "extracted_images\\Photo_p5_44.jpeg"
+            },
+            "thermal_data": {
+                "thermal_id": "RB02395X.JPG",
+                "hotspot": "27 \u00c2\u00b0C",
+                "coldspot": "22 \u00c2\u00b0C",
+                "temp_differential": 5.0,
+                "vlm_visual_description": "The image depicts a vertical interior wall surface, likely plaster or drywall, that meets a horizontal baseboard along the bottom edge and a vertical door frame or corner on the left.",
+                "image_path": "extracted_images\\RB02395X.JPG.jpeg"
+            },
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo describes an interior room with rising damp at the 'base of the walls' and 'skirting level'. It specifically notes the 'left wall' and area 'beneath the window'. Geometrically, this implies a vertical wall surface intersecting a horizontal floor trim (skirting) with a vertical boundary on the left (window reveal or corner).\n2. Analyze Thermal Candidates: The remaining thermal candidates generally describe a 'vertical interior wall surface' meeting a 'horizontal baseboard or skirting'. Many candidates (e.g., RB02395X, RB02405X, RB02394X) also specify a 'vertical door frame or corner on the left'.\n3. Compare Geometry: The target's 'skirting level' and 'left wall' cues align structurally with the thermal candidates describing a 'horizontal baseboard' and a 'vertical... corner on the left'. While the target mentions a 'window' and candidates mention a 'door frame or corner', geometrically these both represent a vertical termination edge on the left side of the wall section.\n4. Select Match: RB02395X.JPG provides a precise structural description ('vertical interior wall surface... meets a horizontal baseboard... vertical door frame or corner on the left') that mirrors the target's geometry (Wall + Skirting + Left Edge). It is the most logical structural match among the candidates provided."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p5_45",
+                "area": "Impacted Area 5",
+                "side": "Negative",
+                "pdf_description": "Photo 33 Photo 34 Photo 35 Photo 36 Photo 37",
+                "vlm_visual_description": "Description failed",
+                "image_path": "extracted_images\\Photo_p5_45.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo metadata explicitly states 'Visual Features (from VLM): Description failed'. This means there are no geometric, structural, or defect descriptions available for the target image to use as a reference. 2. Analyze Thermal Candidates: All 14 remaining thermal candidates describe nearly identical structural features: a vertical interior wall surface meeting a horizontal baseboard or skirting board. While some candidates mention a 'dark vertical door frame or corner on the left' and others do not, these are minor variations. 3. Comparison: A logical match requires comparing specific unique identifiers (e.g., specific defect location, fixture presence, damage pattern) between the target and the candidate. Since the target description is null, there are no features to compare against the candidates' descriptions. 4. Conclusion: It is impossible to logically distinguish the correct thermal scan from the group without target visual features. Per the instruction 'If nothing matches logically, output NONE', the result must be NONE."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p5_46",
+                "area": "Impacted Area 5",
+                "side": "Negative",
+                "pdf_description": "Photo 33 Photo 34 Photo 35 Photo 36 Photo 37",
+                "vlm_visual_description": "Description failed",
+                "image_path": "extracted_images\\Photo_p5_46.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo metadata indicates 'Impacted Area 5' and references Photos 33-37. Crucially, the 'Visual Features' field states 'Description failed'. This means there is no textual data describing the content, geometry, or specific defects of the target photo (e.g., whether it shows a wall, floor, ceiling, or specific structural element). 2. Analyze Thermal Candidates: The remaining thermal candidates (RB02403X through RB02379X) all describe a highly consistent geometric structure: a vertical interior wall surface meeting a horizontal skirting board or baseboard, with many also noting a dark vertical door frame or corner on the left edge. 3. Compare Features: To establish a forensic match, specific visual or structural features from the target must overlap with the candidate. Since the target features are missing, I cannot verify if the target photo depicts the wall/skirting structure described in the candidates. 4. Differentiate Candidates: Even if we assume the target depicts a wall, the candidates are nearly indistinguishable based on the provided text (all describe wall + skirting + optional door frame). There is no unique geometric cue in the target data to link it to a specific thermal ID (e.g., distinguishing RB02403X from RB02394X). 5. Conclusion: Due to the missing visual description for the target photo and the lack of unique differentiating features among the candidates, no logical structural match can be confirmed. Asserting a match would be speculative and forensically unsound."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p6_55",
+                "area": "Impacted Area 6",
+                "side": "Negative",
+                "pdf_description": "Issue",
+                "vlm_visual_description": "This close-up view of a ceiling structure featuring textured beams shows significant surface deterioration, characterized by peeling paint and plaster that exposes dark, damp patches underneath.",
+                "image_path": "extracted_images\\Photo_p6_55.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "1. Analyze Target Structure: The target inspection photo is explicitly described as a 'ceiling structure featuring textured beams'. This indicates an overhead geometric orientation looking up at framing elements.\n2. Analyze Candidate Structures: All 14 remaining thermal candidates (from RB02403X.JPG to RB02379X.JPG) consistently describe a 'vertical interior wall' surface meeting a 'horizontal baseboard or skirting board at the floor level'.\n3. Compare Geometry: The target represents a ceiling/overhead structure, whereas every candidate represents a wall/floor junction. These are mutually exclusive structural orientations (up vs. down/vertical).\n4. Compare Elements: The target features 'textured beams', while the candidates feature 'drywall or plaster' and 'skirting boards'. There is no overlap in structural components.\n5. Conclusion: Since none of the thermal candidates depict a ceiling or beam structure, there is no logical match for the provided inspection photo."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p6_56",
+                "area": "Impacted Area 6",
+                "side": "Negative",
+                "pdf_description": "Issue",
+                "vlm_visual_description": "This photo depicts an interior corner and shelf area showing severe signs of water ingress, including extensive brown staining and large patches of peeling paint that reveal dark, moldy substrate underneath.",
+                "image_path": "extracted_images\\Photo_p6_56.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo is described as an 'Interior corner and shelf area' with severe water ingress (staining, peeling paint). The key geometric identifiers are a corner and a shelf structure.\n2. Analyze Thermal Candidates: All 14 remaining thermal candidates are described structurally as a 'vertical interior wall surface meeting a horizontal baseboard or skirting board at the bottom'. Most also note a 'door frame or corner' on the left edge.\n3. Compare Geometry: The target explicitly identifies a 'shelf area', which implies a mid-wall horizontal surface or joinery. In contrast, every thermal candidate description explicitly identifies the 'floor level' interface (baseboard/skirting). While both the target and candidates mention a 'corner', the primary horizontal feature (Shelf vs. Baseboard/Floor) is contradictory. A thermal scan corresponding to the 'shelf area' photo should describe the shelf geometry, not just the floor skirting.\n4. Conclusion: There is no logical structural match between the specific 'shelf area' description of the target and the 'floor/baseboard' descriptions of the available thermal candidates. Therefore, no match is found."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p6_57",
+                "area": "Impacted Area 6",
+                "side": "Negative",
+                "pdf_description": "Issue",
+                "vlm_visual_description": "This image depicts a ceiling and concrete beam in a hallway or entrance area, exhibiting severe water damage characterized by extensive peeling paint and large, dark damp patches.",
+                "image_path": "extracted_images\\Photo_p6_57.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "1. Analyze Target Inspection Photo: The visual features describe a 'ceiling and concrete beam' located in a 'hallway or entrance area'. The perspective is inherently upward-looking, focusing on overhead structural elements and water damage on the ceiling/beam surface.\n2. Analyze Thermal Candidates: All 14 remaining candidates (RB02403X through RB02379X) describe a 'vertical interior wall surface' meeting a 'horizontal baseboard or skirting board at the bottom'. Several also mention a 'vertical door frame or corner'. This indicates a straight-on or downward-looking perspective focused on wall-to-floor junctions.\n3. Compare Geometric Cues: The target specifies overhead structures (ceiling/beam), whereas all candidates specify vertical wall structures meeting the floor (skirting/baseboard). There is no overlap in geometric orientation (upward vs. vertical/floor) or structural elements (beam/ceiling vs. wall/skirting).\n4. Conclusion: Since the text descriptions define mutually exclusive structural views (ceiling vs. wall/floor), there is no logical match between the target inspection photo and any of the provided thermal candidates."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p6_58",
+                "area": "Impacted Area 6",
+                "side": "Negative",
+                "pdf_description": "Issue",
+                "vlm_visual_description": "This photo shows the concrete ceiling soffit and beam structure of an outdoor area, featuring a distinct dark patch or hole indicative of spalling or surface damage near the junction.",
+                "image_path": "extracted_images\\Photo_p6_58.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "1. Analyze Target Photo: The target inspection photo is described as showing a 'concrete ceiling soffit and beam structure' in an 'outdoor area'. The geometry is overhead (ceiling), involving structural concrete elements and beams.\n2. Analyze Thermal Candidates: All 14 remaining thermal candidates (RB02403X through RB02379X) are described consistently as showing a 'vertical interior wall surface meeting a horizontal baseboard or skirting board at the bottom'. They depict interior finishes (drywall/plaster) at floor level.\n3. Compare Geometry: The target describes an overhead horizontal surface (soffit/ceiling), whereas all candidates describe vertical surfaces intersecting with floor trim (walls/skirting).\n4. Compare Material/Location: The target specifies outdoor concrete structure, while candidates specify interior drywall/plaster walls.\n5. Conclusion: There is a fundamental structural and geometric mismatch between the target photo (outdoor ceiling/beam) and all available thermal candidates (interior wall/floor junction). No candidate matches the description of the target."
+        },
+        {
+            "inspection_data": {
+                "id": "Photo_p6_64",
+                "area": "Impacted Area 7",
+                "side": "Negative",
+                "pdf_description": "Dampness",
+                "vlm_visual_description": "This photo depicts the upper corner of an interior room, focusing on the junction between the ceiling and the wall above a window. Significant dark staining and discoloration are visible along this edge, indicating severe dampness or water intrusion.",
+                "image_path": "extracted_images\\Photo_p6_64.jpeg"
+            },
+            "thermal_data": null,
+            "llm_match_reasoning": "The Target Inspection Photo explicitly describes the 'upper corner of an interior room' focusing on the 'junction between the ceiling and the wall'. This indicates a view looking upwards at the top of the wall structure. In contrast, every single Remaining Unmatched Thermal Candidate (RB02403X through RB02379X) describes a 'vertical interior wall surface meeting a horizontal baseboard or skirting board at the bottom' or 'floor level'. Geometrically, the target depicts a ceiling-to-wall interface, while all candidates depict a floor-to-wall interface. Since the structural orientation (top vs. bottom) and specific architectural elements (ceiling vs. skirting board/floor) are mutually exclusive, there is no logical match between the target photo and any of the provided thermal candidates."
+        }
+    ],
+    "positive_references": [
+        {
+            "id": "Photo_p3_11",
+            "area": "Impacted Area 1",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This bathroom interior displays significant water staining and dampness on the floor tiles surrounding the base of the pedestal sink and toilet plumbing.",
+            "image_path": "extracted_images\\Photo_p3_11.jpeg"
+        },
+        {
+            "id": "Photo_p3_12",
+            "area": "Impacted Area 1",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This image depicts a bathroom floor where white tiles show extensive brown staining and discoloration radiating from the base of the toilet. The visible damp marks suggest a potential water leak or drainage issue affecting the flooring and lower wall areas.",
+            "image_path": "extracted_images\\Photo_p3_12.jpeg"
+        },
+        {
+            "id": "Photo_p3_13",
+            "area": "Impacted Area 1",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This photo displays a tiled shower floor and lower wall area characterized by significant brownish staining and discoloration on the white floor tiles and along the skirting, indicating potential dampness or grime accumulation near the central drain.",
+            "image_path": "extracted_images\\Photo_p3_13.jpeg"
+        },
+        {
+            "id": "Photo_p3_14",
+            "area": "Impacted Area 1",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This photo shows a tiled shower floor with a central drain, where the white floor tiles and adjacent wall corners display extensive brownish staining and discoloration consistent with dampness or mold growth.",
+            "image_path": "extracted_images\\Photo_p3_14.jpeg"
+        },
+        {
+            "id": "Photo_p4_19",
+            "area": "Impacted Area 2",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "The image shows a tiled floor area near a doorway threshold that exhibits extensive water staining and discoloration consistent with dampness. Dark residue is visible along the threshold and spreading onto the adjacent tiles, indicating potential moisture issues.",
+            "image_path": "extracted_images\\Photo_p4_19.jpeg"
+        },
+        {
+            "id": "Photo_p4_20",
+            "area": "Impacted Area 2",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This bathroom area displays significant water staining and dampness on the floor tiles, particularly concentrated beneath the pedestal sink and around the exposed plumbing fixtures.",
+            "image_path": "extracted_images\\Photo_p4_20.jpeg"
+        },
+        {
+            "id": "Photo_p4_21",
+            "area": "Impacted Area 2",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This bathroom floor features white tiles with extensive brownish staining and damp marks radiating from the base of the toilet, indicating a likely water leak or failed seal. The adjacent wall skirting and grout lines also show significant discoloration consistent with moisture damage.",
+            "image_path": "extracted_images\\Photo_p4_21.jpeg"
+        },
+        {
+            "id": "Photo_p4_22",
+            "area": "Impacted Area 2",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This photo shows the tiled floor and lower wall of a shower area, revealing significant brownish staining and discoloration on the white floor tiles and along the skirting line near the central drain.",
+            "image_path": "extracted_images\\Photo_p4_22.jpeg"
+        },
+        {
+            "id": "Photo_p4_23",
+            "area": "Impacted Area 2",
+            "side": "Positive",
+            "pdf_description": "hollowness",
+            "vlm_visual_description": "This photo shows a tiled shower floor with a central drain, where the white floor tiles and adjacent wall corners exhibit extensive brownish staining and discoloration suggestive of dampness or mold growth.",
+            "image_path": "extracted_images\\Photo_p4_23.jpeg"
+        },
+        {
+            "id": "Photo_p4_30",
+            "area": "Impacted Area 3",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This image shows a bathroom floor with light-colored tiles that display significant grout discoloration and surface staining. Additionally, there appears to be a gap or deterioration along the door threshold where the tiling meets the adjacent room's flooring.",
+            "image_path": "extracted_images\\Photo_p4_30.jpeg"
+        },
+        {
+            "id": "Photo_p4_31",
+            "area": "Impacted Area 3",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo depicts a tiled bathroom showing signs of deterioration, specifically significant staining and potential dampness along the base of the rear wall and floor tiles. Additionally, there is a visible defect in the flooring near the toilet, appearing as a damaged or missing tile section.",
+            "image_path": "extracted_images\\Photo_p4_31.jpeg"
+        },
+        {
+            "id": "Photo_p4_32",
+            "area": "Impacted Area 3",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "",
+            "image_path": "extracted_images\\Photo_p4_32.jpeg"
+        },
+        {
+            "id": "Photo_p4_33",
+            "area": "Impacted Area 3",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo shows a tiled floor corner with a square drain, likely in a bathroom, exhibiting significant dark staining and discoloration on the grout and tiles near the wall junction, indicative of dampness or mold.",
+            "image_path": "extracted_images\\Photo_p4_33.jpeg"
+        },
+        {
+            "id": "Photo_p4_34",
+            "area": "Impacted Area 3",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo shows a tiled wall in a bathroom or shower area exhibiting extensive brown staining and discoloration, indicative of significant dampness or water damage near the floor drain and ceiling junction.",
+            "image_path": "extracted_images\\Photo_p4_34.jpeg"
+        },
+        {
+            "id": "Photo_p5_38",
+            "area": "Impacted Area 4",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo depicts a bathroom floor with light-colored tiles showing signs of staining and dirty grout lines. A visible gap or deterioration is present along the threshold where the floor meets the door frame.",
+            "image_path": "extracted_images\\Photo_p5_38.jpeg"
+        },
+        {
+            "id": "Photo_p5_39",
+            "area": "Impacted Area 4",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This bathroom interior displays tiled flooring and walls with visible damp staining and discoloration along the base of the rear wall, as well as a missing floor tile section near the back corner.",
+            "image_path": "extracted_images\\Photo_p5_39.jpeg"
+        },
+        {
+            "id": "Photo_p5_40",
+            "area": "Impacted Area 4",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This bathroom interior features beige tiled walls and a toilet, exhibiting significant damp staining and discoloration on the floor and lower wall area near the bidet sprayer.",
+            "image_path": "extracted_images\\Photo_p5_40.jpeg"
+        },
+        {
+            "id": "Photo_p5_41",
+            "area": "Impacted Area 4",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo captures the corner of a tiled floor in a wet area, centering on a square floor waste drain. Significant dark staining and discoloration are visible on the grout and tiles surrounding the drain and along the base of the wall, indicating potential moisture issues or mold growth.",
+            "image_path": "extracted_images\\Photo_p5_41.jpeg"
+        },
+        {
+            "id": "Photo_p5_42",
+            "area": "Impacted Area 4",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo depicts a tiled wall in a bathroom or shower area showing extensive brown staining and discoloration consistent with dampness or water leakage near the floor drain.",
+            "image_path": "extracted_images\\Photo_p5_42.jpeg"
+        },
+        {
+            "id": "Photo_p5_47",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "Description failed",
+            "image_path": "extracted_images\\Photo_p5_47.jpeg"
+        },
+        {
+            "id": "Photo_p5_48",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "This photo depicts a grimy industrial utility area or basement featuring large, heavily corroded pipes running above a dirty window frame set in concrete. Visible defects include significant rust on the pipework and adjacent metal structures, along with accumulated dirt and staining on the surrounding concrete surfaces.",
+            "image_path": "extracted_images\\Photo_p5_48.jpeg"
+        },
+        {
+            "id": "Photo_p5_49",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "This photo depicts an upper wall area featuring a window frame situated beneath heavy industrial piping and metal supports. The metal infrastructure shows severe rust and corrosion, while the concrete lintel above the window exhibits significant water staining and dampness, indicating a likely leak.",
+            "image_path": "extracted_images\\Photo_p5_49.jpeg"
+        },
+        {
+            "id": "Photo_p5_50",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "This photo shows the exterior facade of a multi-story building, specifically the plastered wall surface surrounding the windows. Extensive spiderweb-like cracking is visible across the render, indicating significant surface crazing.",
+            "image_path": "extracted_images\\Photo_p5_50.jpeg"
+        },
+        {
+            "id": "Photo_p5_51",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "This exterior photo displays the facade of a multi-story building, featuring a vertical column with louvered vents next to a main wall section. The wall surface exhibits significant, widespread map cracking or crazing across the render.",
+            "image_path": "extracted_images\\Photo_p5_51.jpeg"
+        },
+        {
+            "id": "Photo_p5_52",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "This exterior view captures a vertical ventilation column and an adjacent textured wall on a multi-story building. The large wall surface to the left displays significant spider-web cracking or crazing across the finish.",
+            "image_path": "extracted_images\\Photo_p5_52.jpeg"
+        },
+        {
+            "id": "Photo_p5_53",
+            "area": "Impacted Area 5",
+            "side": "Positive",
+            "pdf_description": "Issue",
+            "vlm_visual_description": "This photo depicts an exterior concrete wall or pillar situated next to a paved walkway. The surface of the wall exhibits multiple visible cracks running horizontally and diagonally across the render.",
+            "image_path": "extracted_images\\Photo_p5_53.jpeg"
+        },
+        {
+            "id": "Photo_p6_59",
+            "area": "Impacted Area 6",
+            "side": "Positive",
+            "pdf_description": "Photo 49 Photo 50 Photo 51 Photo 52",
+            "vlm_visual_description": "This photo shows a bathroom floor with beige tiles exhibiting dirty grout lines and staining near the door threshold and skirting. A visible gap appears beneath the metal door threshold strip, and there is discoloration at the base of the wall near the sink pedestal.",
+            "image_path": "extracted_images\\Photo_p6_59.jpeg"
+        },
+        {
+            "id": "Photo_p6_60",
+            "area": "Impacted Area 6",
+            "side": "Positive",
+            "pdf_description": "Photo 49 Photo 50 Photo 51 Photo 52",
+            "vlm_visual_description": "This bathroom interior features tiled walls and floors with visible damp staining and discoloration concentrated at the base of the rear wall. A specific defect includes a missing or damaged floor tile section located directly next to the toilet base.",
+            "image_path": "extracted_images\\Photo_p6_60.jpeg"
+        },
+        {
+            "id": "Photo_p6_61",
+            "area": "Impacted Area 6",
+            "side": "Positive",
+            "pdf_description": "Photo 49 Photo 50 Photo 51 Photo 52",
+            "vlm_visual_description": "This bathroom interior features beige tiled walls and a toilet, exhibiting significant dampness and dark staining on the floor and lower wall junction near the bidet sprayer.",
+            "image_path": "extracted_images\\Photo_p6_61.jpeg"
+        },
+        {
+            "id": "Photo_p6_62",
+            "area": "Impacted Area 6",
+            "side": "Positive",
+            "pdf_description": "Photo 49 Photo 50 Photo 51 Photo 52",
+            "vlm_visual_description": "This photo depicts a tiled wall in a bathroom or shower area showing extensive brown staining and discoloration consistent with dampness or water leakage near the floor drain.",
+            "image_path": "extracted_images\\Photo_p6_62.jpeg"
+        },
+        {
+            "id": "Photo_p6_63",
+            "area": "Impacted Area 6",
+            "side": "Positive",
+            "pdf_description": "Photo 49 Photo 50 Photo 51 Photo 52",
+            "vlm_visual_description": "This photo shows a tiled floor area, likely a bathroom, featuring a square floor drain surrounded by significant dark staining and discoloration on the grout and tiles near the wall junction, indicative of dampness or mold.",
+            "image_path": "extracted_images\\Photo_p6_63.jpeg"
+        },
+        {
+            "id": "Photo_p6_65",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo shows a tiled bathroom floor with a visible dark patch suggesting dampness or moisture accumulation near the foreground. The area includes a floor drain in the corner and the partial view of a toilet bowl.",
+            "image_path": "extracted_images\\Photo_p6_65.jpeg"
+        },
+        {
+            "id": "Photo_p6_66",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This image displays a section of tiled flooring, likely within a bathroom, characterized by extensive dark staining and discoloration across the tiles and grout lines that suggests dampness or water infiltration.",
+            "image_path": "extracted_images\\Photo_p6_66.jpeg"
+        },
+        {
+            "id": "Photo_p6_67",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo shows a tiled floor area, likely in a bathroom, surrounding the base of a white sanitary fixture. Visible defects include significant brownish discoloration and surface deterioration around the base, indicative of dampness or water leakage.",
+            "image_path": "extracted_images\\Photo_p6_67.jpeg"
+        },
+        {
+            "id": "Photo_p6_68",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "",
+            "image_path": "extracted_images\\Photo_p6_68.jpeg"
+        },
+        {
+            "id": "Photo_p6_69",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo shows a subfloor or service void where large metal pipes exhibit severe rust and corrosion running alongside a rough brick foundation wall.",
+            "image_path": "extracted_images\\Photo_p6_69.jpeg"
+        },
+        {
+            "id": "Photo_p6_70",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Dampness",
+            "vlm_visual_description": "This photo depicts a service void or ceiling space containing large, insulated pipes running beneath a concrete beam. The pipes exhibit significant surface corrosion and rust, while the adjacent concrete structure appears stained and weathered.",
+            "image_path": "extracted_images\\Photo_p6_70.jpeg"
+        },
+        {
+            "id": "Photo_p9_74",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "Description failed",
+            "image_path": "extracted_images\\Photo_p9_74.png"
+        },
+        {
+            "id": "Photo_p11_77",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo captures the base of an interior wall above a tiled floor, revealing significant signs of rising damp characterized by extensive peeling paint and discoloration near the skirting board.",
+            "image_path": "extracted_images\\Photo_p11_77.jpeg"
+        },
+        {
+            "id": "Photo_p11_78",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior room displays significant rising damp along the base of the walls and skirting boards, evidenced by extensive dark staining, mold growth, and peeling paint just above the tiled floor.",
+            "image_path": "extracted_images\\Photo_p11_78.jpeg"
+        },
+        {
+            "id": "Photo_p11_79",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior room displays significant dampness and mold growth along the lower section of the wall, particularly affecting the area just above the skirting board and floor tiles.",
+            "image_path": "extracted_images\\Photo_p11_79.jpeg"
+        },
+        {
+            "id": "Photo_p11_80",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior room features tiled flooring and shows significant signs of rising damp along the base of the wall, evidenced by extensive peeling paint and deteriorating plaster near the skirting level.",
+            "image_path": "extracted_images\\Photo_p11_80.jpeg"
+        },
+        {
+            "id": "Photo_p11_81",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior room corner highlights the lower walls and skirting area, which exhibit severe signs of rising damp characterized by dark staining and peeling paint extending upward from the tiled floor.",
+            "image_path": "extracted_images\\Photo_p11_81.jpeg"
+        },
+        {
+            "id": "Photo_p11_82",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts the corner of a room with tiled flooring and white walls, exhibiting clear signs of dampness and water staining along the lower wall and skirting board in the right-hand corner.",
+            "image_path": "extracted_images\\Photo_p11_82.jpeg"
+        },
+        {
+            "id": "Photo_p12_84",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows a tiled bathroom floor around the base of a toilet that exhibits extensive brown staining and discoloration, indicative of significant water leakage or dampness. The moisture damage is visible spreading across the floor tiles and affecting the lower section of the adjacent wall.",
+            "image_path": "extracted_images\\Photo_p12_84.jpeg"
+        },
+        {
+            "id": "Photo_p12_85",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows the tiled floor and lower wall of a shower area, featuring significant brownish staining and discoloration on the white floor tiles and along the skirting line near the central drain.",
+            "image_path": "extracted_images\\Photo_p12_85.jpeg"
+        },
+        {
+            "id": "Photo_p12_86",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a tiled shower floor with a visible drain, characterized by widespread brownish staining and discoloration on the white tiles and grout that suggests significant dampness or water damage.",
+            "image_path": "extracted_images\\Photo_p12_86.jpeg"
+        },
+        {
+            "id": "Photo_p12_87",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image displays the lower section of an interior wall showing clear signs of rising damp, evidenced by extensive peeling paint, discoloration, and plaster deterioration just above the floor tiles.",
+            "image_path": "extracted_images\\Photo_p12_87.jpeg"
+        },
+        {
+            "id": "Photo_p12_88",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts the lower section of an interior wall where significant dampness, discoloration, and peeling paint are visible just above the skirting board.",
+            "image_path": "extracted_images\\Photo_p12_88.jpeg"
+        },
+        {
+            "id": "Photo_p12_89",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior shot shows a room corner with tiled flooring where the lower section of the wall displays visible signs of rising damp, evidenced by peeling paint and discoloration just above the skirting board.",
+            "image_path": "extracted_images\\Photo_p12_89.jpeg"
+        },
+        {
+            "id": "Photo_p13_91",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior photo shows the lower section of a white wall above tiled flooring, exhibiting significant horizontal damp staining and discoloration rising from the skirting board.",
+            "image_path": "extracted_images\\Photo_p13_91.jpeg"
+        },
+        {
+            "id": "Photo_p13_92",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This bathroom photo reveals significant brownish water staining and potential dampness on the floor tiles beneath a pedestal sink and near exposed plumbing fixtures.",
+            "image_path": "extracted_images\\Photo_p13_92.jpeg"
+        },
+        {
+            "id": "Photo_p13_93",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This bathroom features floor tiles with extensive brownish staining and discoloration near the plumbing fixtures, indicating likely water leakage or dampness issues.",
+            "image_path": "extracted_images\\Photo_p13_93.jpeg"
+        },
+        {
+            "id": "Photo_p13_94",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "The image displays a tiled floor adjacent to a door threshold that exhibits extensive staining and discoloration, indicative of dampness or water ingress.",
+            "image_path": "extracted_images\\Photo_p13_94.jpeg"
+        },
+        {
+            "id": "Photo_p13_95",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image displays a tiled bathroom floor with extensive brownish staining and discoloration radiating from the base of the toilet and along the wall skirting, indicative of significant water leakage or dampness.",
+            "image_path": "extracted_images\\Photo_p13_95.jpeg"
+        },
+        {
+            "id": "Photo_p13_96",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows the tiled floor and lower wall of a shower area, revealing significant brownish staining and discoloration on the white floor tiles and along the skirting line near the central drain.",
+            "image_path": "extracted_images\\Photo_p13_96.jpeg"
+        },
+        {
+            "id": "Photo_p13_97",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts an interior wall corner showing signs of rising damp, characterized by peeling paint and crumbling plaster near the skirting level along with vertical surface defects.",
+            "image_path": "extracted_images\\Photo_p13_97.jpeg"
+        },
+        {
+            "id": "Photo_p13_98",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo displays a tiled shower floor area with a visible drain, where the white floor tiles and wall corners exhibit extensive brownish staining and discoloration indicative of dampness or mold growth.",
+            "image_path": "extracted_images\\Photo_p13_98.jpeg"
+        },
+        {
+            "id": "Photo_p14_100",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo captures the lower section of an interior wall and corner where significant dampness is visible. Peeling paint and discoloration along the base of the wall and adjacent pillar indicate moisture damage.",
+            "image_path": "extracted_images\\Photo_p14_100.jpeg"
+        },
+        {
+            "id": "Photo_p14_101",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior wall displays clear evidence of dampness, featuring large, discolored water stains and peeling paint near the skirting board and electrical outlet.",
+            "image_path": "extracted_images\\Photo_p14_101.jpeg"
+        },
+        {
+            "id": "Photo_p14_102",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a tiled bathroom interior showing signs of wear and potential water damage. Visible defects include dark staining and discoloration along the base of the rear wall and floor tiles, as well as a damaged or missing section of flooring near the toilet.",
+            "image_path": "extracted_images\\Photo_p14_102.jpeg"
+        },
+        {
+            "id": "Photo_p14_103",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior room shows significant signs of rising damp and peeling paint along the lower sections of the walls near the floor level.",
+            "image_path": "extracted_images\\Photo_p14_103.jpeg"
+        },
+        {
+            "id": "Photo_p15_105",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This bathroom area features a pedestal sink and toilet against a mosaic tiled wall, where the floor tiles exhibit significant dark staining and discoloration indicative of water leakage or dampness near the plumbing fixtures.",
+            "image_path": "extracted_images\\Photo_p15_105.jpeg"
+        },
+        {
+            "id": "Photo_p15_106",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo captures the lower section of an interior wall showing significant horizontal water staining and discoloration consistent with rising dampness just above the skirting board.",
+            "image_path": "extracted_images\\Photo_p15_106.jpeg"
+        },
+        {
+            "id": "Photo_p15_107",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image depicts a bathroom corner with beige mosaic wall tiles and a toilet, highlighting significant staining and potential dampness or water damage on the floor near the base of the wall.",
+            "image_path": "extracted_images\\Photo_p15_107.jpeg"
+        },
+        {
+            "id": "Photo_p15_108",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a bathroom floor featuring light-colored tiles with visibly discolored grout lines and surface staining. Additionally, there appears to be an unsealed gap or defect at the threshold where the tiling meets the door frame.",
+            "image_path": "extracted_images\\Photo_p15_108.jpeg"
+        },
+        {
+            "id": "Photo_p15_109",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a tiled corner, likely within a bathroom, showing a wall section with a floor waste drain. The wall tiles exhibit severe brown staining and discoloration, particularly concentrated near the ceiling junction, indicating significant water damage or dampness.",
+            "image_path": "extracted_images\\Photo_p15_109.jpeg"
+        },
+        {
+            "id": "Photo_p15_110",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows a tiled floor corner with a square drain, likely in a bathroom, exhibiting significant dark staining and discoloration on the grout and tiles near the wall junction, indicative of dampness or mold.",
+            "image_path": "extracted_images\\Photo_p15_110.jpeg"
+        },
+        {
+            "id": "Photo_p16_112",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a bathroom interior featuring tiled flooring and walls, where significant dark staining and potential dampness are visible along the floor-to-wall junction and skirting area.",
+            "image_path": "extracted_images\\Photo_p16_112.jpeg"
+        },
+        {
+            "id": "Photo_p16_113",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a bathroom floor with light-colored tiles that show visible staining and discolored grout lines. The door threshold area appears to have a gap or deteriorated sealant along the edge where it meets the floor.",
+            "image_path": "extracted_images\\Photo_p16_113.jpeg"
+        },
+        {
+            "id": "Photo_p17_115",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "",
+            "image_path": "extracted_images\\Photo_p17_115.jpeg"
+        },
+        {
+            "id": "Photo_p17_116",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This bathroom area features tiled walls and flooring with exposed plumbing fixtures. Significant damp staining is visible on the floor tiles near the base of the sink and toilet, indicating potential water leakage or moisture intrusion.",
+            "image_path": "extracted_images\\Photo_p17_116.jpeg"
+        },
+        {
+            "id": "Photo_p17_117",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows a tiled floor area, likely a bathroom, featuring a square floor drain surrounded by significant dark staining and discoloration on the grout and tiles near the wall junction, indicative of dampness or mold.",
+            "image_path": "extracted_images\\Photo_p17_117.jpeg"
+        },
+        {
+            "id": "Photo_p17_118",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This bathroom interior features beige mosaic wall tiles and a toilet, with noticeable damp staining and discoloration on the floor and along the wall-floor junction suggesting moisture intrusion.",
+            "image_path": "extracted_images\\Photo_p17_118.jpeg"
+        },
+        {
+            "id": "Photo_p17_119",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a tiled wall in a bathroom or shower area showing extensive brown staining and discoloration consistent with dampness or water leakage near the floor drain.",
+            "image_path": "extracted_images\\Photo_p17_119.jpeg"
+        },
+        {
+            "id": "Photo_p17_120",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior room exhibits clear signs of rising damp and water damage along the base of the walls. Visible defects include extensive discoloration, peeling paint, and plaster deterioration near the skirting level on the left wall and beneath the window.",
+            "image_path": "extracted_images\\Photo_p17_120.jpeg"
+        },
+        {
+            "id": "Photo_p18_122",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts an interior wall corner showing signs of rising damp, characterized by peeling paint and crumbling plaster near the skirting level along with vertical surface defects.",
+            "image_path": "extracted_images\\Photo_p18_122.jpeg"
+        },
+        {
+            "id": "Photo_p18_123",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows a utility area or basement junction where large pipes run along a wall above a window frame, held by a severely rusted metal bracket. The pipes and surrounding masonry exhibit heavy corrosion, peeling coatings, and dark staining indicative of long-term dampness.",
+            "image_path": "extracted_images\\Photo_p18_123.jpeg"
+        },
+        {
+            "id": "Photo_p19_125",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This interior photo shows the lower section of a white wall above a tiled floor, exhibiting significant horizontal staining and discoloration consistent with rising damp or moisture intrusion near the skirting board.",
+            "image_path": "extracted_images\\Photo_p19_125.jpeg"
+        },
+        {
+            "id": "Photo_p19_126",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This bathroom interior displays significant water staining and dampness on the floor tiles surrounding the base of the pedestal sink and toilet plumbing.",
+            "image_path": "extracted_images\\Photo_p19_126.jpeg"
+        },
+        {
+            "id": "Photo_p19_127",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image depicts an upper wall section featuring a window frame beneath a concrete lintel and large industrial pipes. The metal pipes and support bracket exhibit severe rust and corrosion, while the concrete surface appears weathered and stained.",
+            "image_path": "extracted_images\\Photo_p19_127.jpeg"
+        },
+        {
+            "id": "Photo_p19_128",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This industrial utility area features large pipes running above a window frame set in a concrete structure. The window frame and surrounding concrete ledge exhibit significant grime and surface staining consistent with dampness or weathering.",
+            "image_path": "extracted_images\\Photo_p19_128.jpeg"
+        },
+        {
+            "id": "Photo_p19_129",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows the exterior facade of a multi-story building, specifically focusing on a plastered wall surface adjacent to a vertical vent shaft. The wall exhibits extensive, widespread network cracking (crazing) across the finish.",
+            "image_path": "extracted_images\\Photo_p19_129.jpeg"
+        },
+        {
+            "id": "Photo_p19_130",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows the exterior facade of a multi-story building, specifically the plastered wall surface surrounding the windows. Extensive spiderweb-like cracking is visible across the render, indicating significant surface crazing or shrinkage.",
+            "image_path": "extracted_images\\Photo_p19_130.jpeg"
+        },
+        {
+            "id": "Photo_p20_132",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts an interior wall corner and shelf area suffering from severe water damage, evidenced by extensive brown staining and large patches of peeling render exposing the dark substrate beneath.",
+            "image_path": "extracted_images\\Photo_p20_132.jpeg"
+        },
+        {
+            "id": "Photo_p20_133",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image depicts a ceiling and concrete beam in a hallway or entrance area, characterized by severe water damage with extensive peeling paint and large, dark damp patches spreading across the surface.",
+            "image_path": "extracted_images\\Photo_p20_133.jpeg"
+        },
+        {
+            "id": "Photo_p20_134",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows an exterior concrete wall column featuring visible hairline cracks and fracturing across the rendered surface near a white pipe railing.",
+            "image_path": "extracted_images\\Photo_p20_134.jpeg"
+        },
+        {
+            "id": "Photo_p20_135",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This exterior view captures a vertical concrete column with ventilation louvers situated next to a large wall surface. The wall on the left displays extensive spiderweb cracking and crazing across the plaster finish.",
+            "image_path": "extracted_images\\Photo_p20_135.jpeg"
+        },
+        {
+            "id": "Photo_p20_136",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows the ceiling soffit of an outdoor covered area, framed by textured concrete beams and columns. A significant defect is visible on the ceiling where a patch of plaster has spalled away, exposing the rough underlying material.",
+            "image_path": "extracted_images\\Photo_p20_136.jpeg"
+        },
+        {
+            "id": "Photo_p20_137",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows an interior ceiling area characterized by textured structural beams and plastered sections. Visible defects include severe paint peeling and delamination, which exposes dark, damp-looking substrate beneath the white surface.",
+            "image_path": "extracted_images\\Photo_p20_137.jpeg"
+        },
+        {
+            "id": "Photo_p21_139",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image depicts a bathroom where the tiled floor and lower wall sections show significant staining and discoloration, particularly near the skirting, indicating potential dampness or water damage.",
+            "image_path": "extracted_images\\Photo_p21_139.jpeg"
+        },
+        {
+            "id": "Photo_p21_140",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts the tiled floor of a bathroom, highlighting dirty grout lines and discoloration near the door threshold.",
+            "image_path": "extracted_images\\Photo_p21_140.jpeg"
+        },
+        {
+            "id": "Photo_p22_142",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image shows an interior wall corner and shelf area exhibiting severe water damage. Visible defects include extensive peeling paint, dark mold growth, and brown staining on the plaster surface.",
+            "image_path": "extracted_images\\Photo_p22_142.jpeg"
+        },
+        {
+            "id": "Photo_p22_143",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a ceiling and concrete beam area, likely in a common hallway, exhibiting severe signs of water damage. Large, irregular patches of dampness and discoloration are visible where the paint is peeling and the plaster is deteriorating.",
+            "image_path": "extracted_images\\Photo_p22_143.jpeg"
+        },
+        {
+            "id": "Photo_p22_144",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts a tiled wall in a bathroom or shower area showing extensive brown staining and discoloration consistent with dampness or water leakage near the floor drain.",
+            "image_path": "extracted_images\\Photo_p22_144.jpeg"
+        },
+        {
+            "id": "Photo_p22_145",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image depicts a bathroom corner featuring beige wall tiles and a toilet, where the floor area near the wall and plumbing fixtures shows significant dark staining and discoloration indicative of potential dampness or water leakage.",
+            "image_path": "extracted_images\\Photo_p22_145.jpeg"
+        },
+        {
+            "id": "Photo_p22_146",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows a tiled floor corner with a square drain, likely in a bathroom, exhibiting significant dark staining and discoloration on the grout and tiles near the wall junction, indicative of dampness or mold.",
+            "image_path": "extracted_images\\Photo_p22_146.jpeg"
+        },
+        {
+            "id": "Photo_p22_147",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo depicts the upper wall and ceiling area above a window, showing significant dark damp stains and discoloration along the corner junction indicative of water ingress.",
+            "image_path": "extracted_images\\Photo_p22_147.jpeg"
+        },
+        {
+            "id": "Photo_p23_149",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This photo shows a tiled floor in a bathroom surrounding the base of a white fixture, exhibiting significant brownish staining and peeling surface material indicative of dampness or water damage.",
+            "image_path": "extracted_images\\Photo_p23_149.jpeg"
+        },
+        {
+            "id": "Photo_p23_150",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This building inspection photo shows a corner of a tiled wet area, likely a bathroom, featuring a beige tiled floor with a circular metal floor waste. Visible defects include dark mould growth and damp staining along the junction between the floor tiles and the adjacent white painted surface, indicating potential sealant failure or water ingress.",
+            "image_path": "extracted_images\\Photo_p23_150.jpeg"
+        },
+        {
+            "id": "Photo_p23_151",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image depicts a subfloor or service void containing large, parallel pipes running alongside a rough brick wall. The pipes show significant signs of heavy rust and corrosion, while the surrounding area is filled with debris and dirt.",
+            "image_path": "extracted_images\\Photo_p23_151.jpeg"
+        },
+        {
+            "id": "Photo_p23_152",
+            "area": "Impacted Area 7",
+            "side": "Positive",
+            "pdf_description": "Photo 59 Photo 60 Photo 61 Photo 62 Photo 63 Photo 64",
+            "vlm_visual_description": "This image captures an underfloor service area or crawl space where large, insulated pipes run beneath a structural timber beam. The wooden element exhibits severe rot and decay, indicating significant moisture damage or deterioration within the confined space.",
+            "image_path": "extracted_images\\Photo_p23_152.jpeg"
+        }
+    ],
+    "engineering_analysis": {},
+    "missing_information": [
+        "Thermal Evidence missing for Impacted Area 1: ",
+        "Thermal Evidence missing for Impacted Area 1: Photo 1 Photo 2 Photo 3 Photo 4 Photo 5 Photo 6",
+        "Thermal Evidence missing for Impacted Area 2: Dampness",
+        "Thermal Evidence missing for Impacted Area 2: Dampness",
+        "Thermal Evidence missing for Impacted Area 5: Photo 33 Photo 34 Photo 35 Photo 36 Photo 37",
+        "Thermal Evidence missing for Impacted Area 5: Photo 33 Photo 34 Photo 35 Photo 36 Photo 37",
+        "Thermal Evidence missing for Impacted Area 6: Issue",
+        "Thermal Evidence missing for Impacted Area 6: Issue",
+        "Thermal Evidence missing for Impacted Area 6: Issue",
+        "Thermal Evidence missing for Impacted Area 6: Issue",
+        "Thermal Evidence missing for Impacted Area 7: Dampness"
+    ],
+    "root_cause": "Dampness observed at the skirting levels of the Hall, Common Bedroom, Master Bedroom, and Kitchen in Flat No. 103 is directly caused by observed gaps between tile joints in the Common Bathroom and Master Bedroom Bathroom of Flat No. 103. Leakage at the Parking ceiling below Flat No. 103 is attributed to plumbing issues and gaps between tile joints of the Common Bathroom. Efflorescence on the Master Bedroom wall surface is sourced from cracks on the External wall of the building. Mild dampness at the ceiling of the Common Bathroom in Flat No. 103 originates from tile joint gaps in Flat No. 203. Checklist data confirms these findings with positive indicators for leakage due to concealed plumbing, damage in Nahani trap/Brickbat coba under tile flooring, and loose plumbing joints.",
+    "severity": null,
+    "recommended_actions": [
+        "Regrout tile gaps and remove blackish dirt observed in tile joints of Common and Master Bedroom Bathrooms (Flat No. 103 & 203).",
+        "Repair damage in Nahani trap and Brickbat coba under tile flooring in WC areas.",
+        "Rectify loose plumbing joints and rust around joints and edges (Flush Tank, shower, angle cock, bibcock, washbasin).",
+        "Seal moderate cracks observed on RCC Column, Beam, and External Wall surfaces.",
+        "Treat algae, fungus, and moss observed on the external wall.",
+        "Investigate and repair concealed plumbing leakage identified in WC and External Wall categories.",
+        "Address gaps around Nahani Trap Joints to prevent further water seepage."
+    ],
+    "issue_summary": "Based on the provided text excerpts from the construction health report, the following summary synthesizes the identified issues across seven impacted areas:\n\n**Executive Summary**\nThe report highlights widespread structural concerns primarily characterized by **dampness** and significant **thermal anomalies**. Thermal imaging indicates a consistent temperature differential of approximately **5.0\u00b0C** across multiple areas, suggesting moisture intrusion or insulation failures. Photographic evidence has been documented for specific zones.\n\n**Key Findings by Issue Type**\n*   **Dampness:** Identified as the primary defect in **Impacted Areas 2, 3, 4, and 7**.\n*   **Thermal Anomalies:** A thermal difference ranging from **5.0\u00b0C to 5.4\u00b0C** was recorded in **Impacted Areas 1, 2, 3, 4, and 5**. This consistency suggests a systemic issue rather than isolated incidents.\n*   **Unspecified Issues:** **Impacted Area 6** is flagged generically as an \"Issue\" without specific diagnostic data (thermal or visual) provided in the excerpts.\n\n**Documentation & Evidence**\n*   **Photographic Records:** Visual evidence is referenced for **Impacted Area 1** (Photos 1\u20136) and **Impacted Area 5** (Photos 33\u201337).\n*   **Data Consistency:** The repetition of the 5.0\u00b0C thermal differential across five distinct areas reinforces the likelihood of a widespread building envelope failure.\n\n**Area-Specific Breakdown**\n*   **Area 1:** Thermal variance (5.0\u00b0C\u20135.4\u00b0C); Photos 1\u20136.\n*   **Area 2:** Dampness; Thermal variance (5.0\u00b0C).\n*   **Area 3:** Dampness; Thermal variance (5.0\u00b0C).\n*   **Area 4:** Dampness; Thermal variance (5.0\u00b0C).\n*   **Area 5:** Thermal variance (5.0\u00b0C); Photos 33\u201337.\n*   **Area 6:** Unspecified issue.\n*   **Area 7:** Dampness."
+}
