@@ -1,0 +1,242 @@
+[
+  {
+    "thermal_id": "RB02380X.JPG",
+    "hotspot": "28.8 °C",
+    "coldspot": "23.4 °C",
+    "temp_differential": 5.400000000000002,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+    "image_path": "extracted_images\\RB02380X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02386X.JPG",
+    "hotspot": "27.4 °C",
+    "coldspot": "22.4 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "The image displays a vertical interior wall surface, likely plaster or drywall, meeting a horizontal skirting board or floor junction at the bottom, characterized by irregular patches of peeling paint and surface deterioration.",
+    "image_path": "extracted_images\\RB02386X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02395X.JPG",
+    "hotspot": "27 °C",
+    "coldspot": "22 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "The image depicts a vertical interior wall surface, likely plaster or drywall, that meets a horizontal baseboard along the bottom edge and a vertical door frame or corner on the left.",
+    "image_path": "extracted_images\\RB02395X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02402X.JPG",
+    "hotspot": "25.7 °C",
+    "coldspot": "20.7 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+    "image_path": "extracted_images\\RB02402X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02403X.JPG",
+    "hotspot": "25.5 °C",
+    "coldspot": "20.5 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be the lower section of a vertical interior wall, likely drywall or plaster, meeting a horizontal baseboard or skirting board at the floor level.",
+    "image_path": "extracted_images\\RB02403X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02404X.JPG",
+    "hotspot": "25.8 °C",
+    "coldspot": "20.8 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of the underlying structure, this appears to be the lower section of a vertical interior wall (likely plaster or drywall) meeting a horizontal baseboard at the bottom and adjacent to a vertical corner or door frame on the left.",
+    "image_path": "extracted_images\\RB02404X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02405X.JPG",
+    "hotspot": "26.2 °C",
+    "coldspot": "21.2 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting along the bottom edge, with a vertical door frame or corner structure visible on the far left.",
+    "image_path": "extracted_images\\RB02405X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02406X.JPG",
+    "hotspot": "26.5 °C",
+    "coldspot": "21.5 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of a large vertical surface with peeling paint/plaster meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this appears to be an interior wall section meeting a skirting board or baseboard near a corner or door frame.",
+    "image_path": "extracted_images\\RB02406X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02392X.JPG",
+    "hotspot": "25.8 °C",
+    "coldspot": "20.8 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+    "image_path": "extracted_images\\RB02392X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02393X.JPG",
+    "hotspot": "25.9 °C",
+    "coldspot": "20.9 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of peeling paint, horizontal trim, and vertical planes, this appears to be a section of an interior drywall or plaster wall situated directly above a baseboard or skirting board, with a dark vertical door frame or corner visible on the far left edge.\n\n**Best educated guess of the structural geometry:** This is a vertical interior wall surface meeting a horizontal floor skirting board at the bottom, adjacent to a vertical door frame or wall corner on the left.",
+    "image_path": "extracted_images\\RB02393X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02394X.JPG",
+    "hotspot": "26 °C",
+    "coldspot": "21 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "The image displays a vertical interior wall surface intersecting with a horizontal baseboard or floor molding at the bottom, adjacent to a dark vertical structure on the left that likely represents a door frame or corner.",
+    "image_path": "extracted_images\\RB02394X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02396X.JPG",
+    "hotspot": "26.1 °C",
+    "coldspot": "21.1 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting at the bottom, featuring a dark vertical edge on the left that likely indicates a door frame or room corner.",
+    "image_path": "extracted_images\\RB02396X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02397X.JPG",
+    "hotspot": "26.3 °C",
+    "coldspot": "21.3 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "The image shows a vertical interior wall surface meeting a horizontal skirting board or baseboard at the bottom, with a dark vertical door frame or corner visible on the left edge.",
+    "image_path": "extracted_images\\RB02397X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02398X.JPG",
+    "hotspot": "25.6 °C",
+    "coldspot": "20.6 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "The image shows a vertical interior wall surface meeting a horizontal skirting board or baseboard at the bottom, with a dark vertical door frame or corner visible on the left edge.",
+    "image_path": "extracted_images\\RB02398X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02399X.JPG",
+    "hotspot": "26.5 °C",
+    "coldspot": "21.5 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting along the bottom edge, with a vertical door frame or corner structure visible on the far left.",
+    "image_path": "extracted_images\\RB02399X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02400X.JPG",
+    "hotspot": "25.2 °C",
+    "coldspot": "20.2 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This is a vertical interior wall surface meeting a horizontal skirting board at the bottom, with a dark vertical corner or door frame visible on the left edge.",
+    "image_path": "extracted_images\\RB02400X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02401X.JPG",
+    "hotspot": "25.6 °C",
+    "coldspot": "20.6 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+    "image_path": "extracted_images\\RB02401X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02381X.JPG",
+    "hotspot": "27 °C",
+    "coldspot": "22 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting at the bottom, likely situated near a corner or door frame given the dark vertical edge on the left.",
+    "image_path": "extracted_images\\RB02381X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02382X.JPG",
+    "hotspot": "26.7 °C",
+    "coldspot": "21.7 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be the lower section of a vertical interior wall meeting a horizontal baseboard or skirting, adjacent to a vertical door frame or corner on the left.",
+    "image_path": "extracted_images\\RB02382X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02383X.JPG",
+    "hotspot": "26.5 °C",
+    "coldspot": "21.5 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of a flat vertical surface meeting a horizontal trim piece at the bottom, this appears to be an interior wall section, likely plaster or drywall, adjoining a skirting board or baseboard near the floor.",
+    "image_path": "extracted_images\\RB02383X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02384X.JPG",
+    "hotspot": "27.3 °C",
+    "coldspot": "22.3 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of the underlying structure, this appears to be a vertical interior wall surface, likely made of plaster or drywall, which is meeting a horizontal skirting board or baseboard at the bottom and a dark vertical door frame or corner on the far left.",
+    "image_path": "extracted_images\\RB02384X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02385X.JPG",
+    "hotspot": "27.3 °C",
+    "coldspot": "22.3 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface, likely plaster or drywall, meeting a horizontal baseboard or skirting board at the bottom.",
+    "image_path": "extracted_images\\RB02385X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02387X.JPG",
+    "hotspot": "25.2 °C",
+    "coldspot": "20.2 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence, this is a vertical interior wall surface, likely made of drywall or plaster, that is meeting a horizontal baseboard or skirting board at the bottom.",
+    "image_path": "extracted_images\\RB02387X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02388X.JPG",
+    "hotspot": "25.1 °C",
+    "coldspot": "20.1 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "The image depicts the lower section of a flat, vertical interior wall, likely drywall or plaster, meeting a baseboard or floor junction at the bottom edge.",
+    "image_path": "extracted_images\\RB02388X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02389X.JPG",
+    "hotspot": "25.9 °C",
+    "coldspot": "20.9 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of a vertical painted surface meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this is an interior wall section located near the floor, likely adjacent to a door frame or corner.",
+    "image_path": "extracted_images\\RB02389X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02390X.JPG",
+    "hotspot": "26.9 °C",
+    "coldspot": "21.9 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of a vertical painted surface with peeling texture meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this is a vertical interior wall surface meeting a horizontal baseboard or skirting board at the floor level.",
+    "image_path": "extracted_images\\RB02390X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02391X.JPG",
+    "hotspot": "25.6 °C",
+    "coldspot": "20.6 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard at the bottom, featuring peeling paint and a dark vertical element like a door frame or corner on the left side.",
+    "image_path": "extracted_images\\RB02391X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02377X.JPG",
+    "hotspot": "26.9 °C",
+    "coldspot": "21.9 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal baseboard or skirting at the bottom, characterized by significant peeling paint or plaster damage.",
+    "image_path": "extracted_images\\RB02377X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02378X.JPG",
+    "hotspot": "26.4 °C",
+    "coldspot": "21.4 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "Based on the visual evidence of a flat vertical surface with peeling paint/plaster meeting a horizontal trim piece at the bottom and a dark vertical edge on the left, this is a vertical interior wall surface, likely plaster or drywall, meeting a horizontal skirting board or baseboard at the floor level.",
+    "image_path": "extracted_images\\RB02378X.JPG.jpeg"
+  },
+  {
+    "thermal_id": "RB02379X.JPG",
+    "hotspot": "27.8 °C",
+    "coldspot": "22.8 °C",
+    "temp_differential": 5.0,
+    "vlm_visual_description": "This appears to be a vertical interior wall surface meeting a horizontal skirting board or baseboard at the bottom, with a dark vertical door frame or corner visible on the left edge.",
+    "image_path": "extracted_images\\RB02379X.JPG.jpeg"
+  }
+]
