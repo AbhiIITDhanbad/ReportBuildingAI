@@ -1,0 +1,209 @@
+{
+  "inspection_date_and_time": "27.09.2022 14:28 IST",
+  "inspected_by": "Krushna & Mahesh",
+  "property_age_years": "Not Available",
+  "property_type": "Flat",
+  "floors": "11",
+  "checklists": [
+    {
+      "category": "WC",
+      "item": "Condition of leakage at adjacent walls",
+      "value": "Not Available"
+    },
+    {
+      "category": "WC",
+      "item": "Condition of leakage below WC",
+      "value": "Not Available"
+    },
+    {
+      "category": "WC",
+      "item": "Leakage during",
+      "value": "All time"
+    },
+    {
+      "category": "WC",
+      "item": "Leakage due to concealed plumbing",
+      "value": "Yes"
+    },
+    {
+      "category": "WC",
+      "item": "Leakage due to damage in Nahani trap/Brickbat coba under tile flooring",
+      "value": "Yes"
+    },
+    {
+      "category": "Positive Side Inputs For WC",
+      "item": "Gaps/Blackish dirt Observed in tile joints",
+      "value": "Yes"
+    },
+    {
+      "category": "Positive Side Inputs For WC",
+      "item": "Gaps around Nahani Trap Joints",
+      "value": "Yes"
+    },
+    {
+      "category": "Positive Side Inputs For WC",
+      "item": "Tiles Broken/Loosed anywhere",
+      "value": "No"
+    },
+    {
+      "category": "Positive Side Inputs For WC",
+      "item": "Loose Plumbing joints/rust around joints and edges (Flush Tank/shower/angle cock/bibcock, washbasin, etc)",
+      "value": "Yes"
+    },
+    {
+      "category": "Positive Side Inputs For WC",
+      "item": "Type of tile",
+      "value": "Not Available"
+    },
+    {
+      "category": "Negative Side Inputs For External Wall",
+      "item": "Condition of leakage at interior side",
+      "value": "Not Available"
+    },
+    {
+      "category": "Negative Side Inputs For External Wall",
+      "item": "Leakage during",
+      "value": "All time"
+    },
+    {
+      "category": "Negative Side Inputs For External Wall",
+      "item": "Leakage due to concealed plumbing",
+      "value": "Yes"
+    },
+    {
+      "category": "Negative Side Inputs For External Wall",
+      "item": "Internal WC/Bath/Balcony leakage observed",
+      "value": "Yes"
+    },
+    {
+      "category": "Positive Side Inputs for External Wall",
+      "item": "Existing type of paint and manufacturer",
+      "value": "Not sure"
+    },
+    {
+      "category": "Stuctural Condition of RCC Members",
+      "item": "Condition of cracks observed on RCC Column and Beam",
+      "value": "Moderate"
+    },
+    {
+      "category": "Stuctural Condition of RCC Members",
+      "item": "Condition of rust marks observed in RCC Beam and Column",
+      "value": "N/A"
+    },
+    {
+      "category": "Stuctural Condition of RCC Members",
+      "item": "Condition of corrosion/spalling of concrete/exposed reinforcement observed in column/beams/roof slab ceiling",
+      "value": "N/A"
+    },
+    {
+      "category": "Stuctural Condition of RCC Members",
+      "item": "Expansion joints condition if any",
+      "value": "N/A"
+    },
+    {
+      "category": "Condition of External wall",
+      "item": "Are there any major or minor cracks observed over external surface?",
+      "value": "Moderate"
+    },
+    {
+      "category": "Condition of External wall",
+      "item": "Are the sealants applied on the window frame joints intact?",
+      "value": "N/A"
+    },
+    {
+      "category": "Condition of External wall",
+      "item": "Condition of wall mounted AC Frames, holes, drain pipes over the wall.",
+      "value": "Not Available"
+    },
+    {
+      "category": "Condition of External wall",
+      "item": "Are the external plumbing pipes cracked and leaked? If yes its condition.",
+      "value": "Not Available"
+    },
+    {
+      "category": "Condition of External wall",
+      "item": "Are the openings around the pipes in external wall properly grouted? If not its condition.",
+      "value": "Not Available"
+    },
+    {
+      "category": "Condition of External wall",
+      "item": "Condition of any vegetation growth, dish antennas fixed on parapet wall observed?",
+      "value": "N/A"
+    },
+    {
+      "category": "Condition of Adhesion of old paint",
+      "item": "Chalking and flaking in paint film.",
+      "value": "N/A"
+    },
+    {
+      "category": "Condition of Adhesion of old paint",
+      "item": "Algae fungus and Moss observed on external wall?",
+      "value": "Moderate"
+    },
+    {
+      "category": "Condition of Adhesion of old paint",
+      "item": "Bird droppings condition observed on external wall and Chajja",
+      "value": "N/A"
+    },
+    {
+      "category": "Condition of Adhesion of old paint",
+      "item": "Condition of corrosion on metal rods and MS window grills",
+      "value": "N/A"
+    },
+    {
+      "category": "Substrate condition of Plaster",
+      "item": "Patchwork plaster required? if yes its condition?",
+      "value": "N/A"
+    },
+    {
+      "category": "Substrate condition of Plaster",
+      "item": "Entire replaster required? if yes its condition?",
+      "value": "N/A"
+    },
+    {
+      "category": "Substrate condition of Plaster",
+      "item": "Condition of separation cracks observed at beam-column junction",
+      "value": "N/A"
+    },
+    {
+      "category": "Substrate condition of Plaster",
+      "item": "Condition of leakage observed from overhead water tank",
+      "value": "N/A"
+    },
+    {
+      "category": "Substrate condition of Plaster",
+      "item": "Loose plaster/hollow sond on external surfaces?if observed,",
+      "value": "N/A"
+    }
+  ],
+  "summary_table_mapping": [
+    {
+      "impacted_area": "Observed dampness at the skirting level of Hall of Flat No. 103",
+      "source_area": "Observed gaps between the tile joints of Common Bathroom of Flat No. 103"
+    },
+    {
+      "impacted_area": "Observed dampness at the skirting level of the Common Bedroom of Flat No. 103",
+      "source_area": "Observed gaps between the tile joints of Common Bathroom of Flat No. 103"
+    },
+    {
+      "impacted_area": "Observed dampness at the skirting level of Master Bedroom of Flat No. 103",
+      "source_area": "Observed gaps between the tile joints of Master Bedroom Bathroom of Flat No. 103"
+    },
+    {
+      "impacted_area": "Observed dampness at the skirting level of Kitchen of Flat No. 103",
+      "source_area": "Observed gaps between the tile joints of Master Bedroom Bathroom of Flat No. 103"
+    },
+    {
+      "impacted_area": "Observed dampness & efflorescence on the wall surface of Master Bedroom of Flat No. 103",
+      "source_area": "Observed cracks on the External wall of building near Master Bedroom of Flat No. 103"
+    },
+    {
+      "impacted_area": "Observed leakage at the Parking ceiling below Flat No. 103",
+      "source_area": "Observed plumbing issue & gaps between the tile joints of Common Bathroom of Flat No. 103"
+    },
+    {
+      "impacted_area": "Observed mild dampness at the ceiling of Common Bathroom of Flat No. 103",
+      "source_area": "Observed gap between tile joints of Common & Master Bedroom Bathrooms of Flat No. 203."
+    }
+  ]
+}
